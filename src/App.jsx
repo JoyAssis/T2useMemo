@@ -19,6 +19,8 @@ function handleAdd(){
 const totalTarefas = useMemo(()=> tarefas.length, [tarefas]) 
   return(
     <>
+    <h1>Iae Joy beleza!!!</h1>
+    <h2>manda o pix</h2>
     <input type="text" onChange={(e)=> setInput(e.target.value)} />
     <button onClick={handleAdd} >Adicionar</button>
     {tarefas.map((tarefas)=>(
